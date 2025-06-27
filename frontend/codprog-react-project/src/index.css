@@ -1,0 +1,71 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #292431;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+a {
+  color: #fff;
+}
+
+.container {
+  max-width: 1280px;
+  width: 80%;
+  margin: 0 auto;
+}
+.stripe_heading{
+  margin-top: 2.3rem;
+}
+
+.stripe_payment{
+  max-width: 40rem;
+  height:28rem;
+  padding: 1.5rem 1rem;
+  border: 2px solid #fff;
+  margin-top: 3rem;
+  box-shadow: 0px 5px 15px 0px rgba(256,256,256,0.35);
+ 
+
+ 
+}
+
+.stripe_button{
+  background-color: rgb(142, 52, 255);
+  color: #fff;
+  padding: 0.8rem 2rem;
+  display: block;
+  border-radius: 1px;
+  margin: 1.5rem auto;
+  width: fit-content;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+#payment-element{
+  overflow-y: hidden;
+
+  
+  
+}
+
+  
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+.stripe_heading{
+font-size: 1.8rem;
+}
+  }

@@ -1,0 +1,11 @@
+.env
+constants.js
+.vscode
+.DS_Store
+**/.DS_Store
+node_modules/
+
+
+# Supabase
+**/supabase/.branches
+**/supabase/.temp
