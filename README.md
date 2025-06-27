@@ -1,6 +1,6 @@
-# Codprog Clone
+# GoLearn Clone
 
-Welcome to the Codprog Clone repository! This README provides a brief overview
+Welcome to the goLearn Clone repository! This README provides a brief overview
 of the project.
 
 ### 1. User Authentication Related Flows
